@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <!-- <link rel="manifest" href="/site.webmanifest"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="Styles/bootstrap.min.css">
+    <link rel="stylesheet" href="Styles/bootstrap.min.css.map">
+    <link rel="stylesheet" href="Styles/header&footer.css">
+    <link rel="stylesheet" href="Styles/contact.css">
+
+    <title>DisneyWorld Contact</title>
+</head>
+
+<body>
+
+    <header class="container-fluid d-flex align-items-center">
+        <div class="container d-flex justify-content-between align-items-center sticky-top ">
+            <div class="logo">
+                <a href="index.html"><img src="Images/Logo.png" alt="logoWaltDisney" title="logoWaltDisney"></a>
+
+            </div>
+            <nav id="nav_open" class="d-md-flex align-items-center">
+
+                <a href="aboutUs.html">About us</a>
+                <a href="gallery.html">Media</a>
+                <a href="faq.html">FAQ</a>
+                <a href="contact.html">Contact</a>
+                <a href="trivia.html">Trivia</a>
+
+                <a href="https://disneyworld.disney.go.com/" target="_blank"><img  src="Images/image (11).png"></a>
+            </nav>
+            <div class="burger">
+                <i id="burger_btn" class="fa fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+    <main class="container-fluid p-md-4 py-5">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="row main_div col-11 col-md-12">
+                    <div data-aos="fade-down" data-aos-duration="700" class="col-lg-3 col-md-5 div_left p-4 px-5 mt-2 mt-md-0 ">
+                        <!-- <h4 class="left_h4 mb-4">B In Touch</h4> -->
+                        <img src="Images/stamp.jpg" class="mb-4" id="stamp">
+                        
+                        <div class="details">
+
+                            <div class="address details">
+                                <i class="fa fa-map-marker"></i>
+                                <div class="topic">Address</div>
+                                <div class="text-one">Island H20 Water Park,</div>
+                                <div class="text-two">Orlando, FL</div>
+                            </div>
+                            <br>
+                            <div class="phone details">
+                                <i class="fa fa-phone"></i>
+                                <div class="topic">Phone</div>
+                                <div class="text-one">+0040 7939 1800</div>
+                                <div class="text-two">+0040 7939 7277</div>
+                            </div>
+                            <br>
+
+                            <div class="email details">
+                                <i class="fa fa-envelope"></i>
+                                <div class="topic">Email</div>
+                                <div class="text-one">services@shopdisney.com</div>
+                                <div class="text-two">info@disneycompany.com</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-duration="700" class="col-lg-9 col-md-7 div_right p-4 px-5 text-center">
+                        <h4 class="left_h4 mb-4">Contact Us</h4>
+                        <form id="id_form" class="text-start">
+                            <label class="ms-3 mt-3 topic">Name</label>
+                            <input id="id_name" class="input col-12 px-3 py-1 my-1" name="Text" type="text" required>
+                            <span id="resultName"></span>
+
+                            <label class="ms-3 mt-2 topic">Email</label>
+                            <input id="id_email" class="input col-12 px-3 py-1 my-1" name="Text" type="text" required>
+                            <span id="resultEmail"></span>
+                            <label class="ms-3 mt-3 topic">Phone</label>
+                            <input id="id_phone" class="input col-12 px-3 py-1 my-1" name="Text" type="text" required>
+                            <span id="resultPhone"></span>
+
+                            <label class="ms-3 mt-3 topic">Message</label>
+                            <textarea id="id_textarea" placeholder="Your text..." class="textarea col-12 px-3 py-2 my-1 color-special"
+                                name="txtMsg" required></textarea>
+                            <span id="resultText"></span>
+
+                            <button id="id_btn" class="btn px-4 py-1 mt-4 topic">Send Now</button>
+                            <span id="notSend"></span>
+
+                        </form>
+
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+        </div>
+
+    </main>
+
+
+
+    <footer class="container-fluid p-0">
+        <div class="container text-center ">
+            <div class="seperator"></div>
+            <div class="p-3">
+                <div>
+                    <strong>For assistance with your Walt Disney World vacation, including resort/package bookings and
+                        tickets,
+                        please call (407) 939-5277.<br>
+                        For Walt Disney World dining, please book your reservation online.
+                    </strong>
+                </div>
+                <div>7:00 AM to 11:00 PM Eastern Time. Guests under 18 years of age must have parent or guardian
+                    permission to call.
+                </div>
+            </div>
+            <div class="seperator"></div>
+        </div>
+
+        <div class="container above py-3">
+            <div class="row justify-content-between ps-4">
+                <div class="col-md-3 p-md-0">
+
+                    <h6><strong>Stay Connected</strong> </h6>
+                    <div>
+                        <a href="https://www.facebook.com/WaltDisneyWorld" target="_blank"><i
+                                class="fa fa-facebook-square"></i></a>
+                        <a href="https://www.instagram.com/waltdisneyworld" target="_blank"><i
+                                class="fa fa-instagram"></i></a>
+                        <a href=" https://www.youtube.com/user/DisneyParks" target="_blank"><i
+                                class="fa fa-youtube-play"></i></a>
+                        <a href="  https://twitter.com/waltdisneyworld/" target="_blank"><i
+                                class="fa fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+
+                    <h6><strong>Free Vacation Planning Videos</strong> </h6>
+                    <p>Start planning your dream Disney Vacation</p>
+                    <a href="gallery.html">View Videos</a>
+                </div>
+                <div class="col-md-3 ">
+
+                    <h6><strong>Create Disney Account</strong> </h6>
+                    <p>Register to receive the latest Disney Parks news and special offers!</p>
+                    <a>Create Account</a>
+                </div>
+                <div class="col-md-3 p-md-0"></div>
+            </div>
+        </div>
+        <div class="linearGradient">
+            <div class="container mb-3">
+                <div class="row justify-content-between">
+
+                    <h6 class="p-md-0"><strong>Related Disney Sites</strong> </h6>
+
+                    <div class="col-md-3 p-md-0">
+
+                        <ul>
+                            <li><a href="https://www.disneysprings.com" target="_blank">Disney Springs</a></li>
+                            <li><a href="http://disneyparks.disney.go.com" target="_blank">Disney Parks</a></li>
+                            <li><a href="http://disneycruise.disney.go.com" target="_blank">Disney Cruise Line</a>
+                            </li>
+                            <li><a href="http://www.disneygiftcard.com/home/" target="_blank">Disney Gift Card</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-md-3">
+                        <ul>
+                            <li><a href="http://disneyvacationclub.disney.go.com/" target="_blank">Disney Vacation
+                                    Club</a></li>
+                            <li><a href="https://www.disneyweddings.com/" target="_blank">Disney's Fairy Tale
+                                    Wedding&
+                                    Honeymoons</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+
+                        <ul>
+                            <li><a href="https://www.disneyplus.com/" target="_blank">Disney+</a></li>
+                            <li><a href="https://disneyworld.disney.go.com/en_CA/store/?int_cmp=ILC-WDW_SDP-RelatedSites"
+                                    target="_blank">Disney Merchandise Online</a></li>
+                            <li><a href="https://www.disneymeetingsandevents.com/" target="_blank">Disney Meetings
+                                    and
+                                    Convntions</a></li>
+                            <li><a href="https://www.disneycampus.com/" target="_blank">Disney Youth Groups</a></li>
+
+
+                        </ul>
+
+                    </div>
+                    <div class="col-md-3">
+
+                        <ul>
+                            <li><a href="https://www.wdwgoodneighborhotels.com/" target="_blank">Walt Disney World
+                                    Good
+                                    Neigbours Hotels</a></li>
+                            <li><a href="https://disneyspringshotels.com" target="_blank">Disney Springs Resort Area
+                                    Hotels</a></li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container text-white inlineUl">
+                <ul class="d-md-flex justify-content-between">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="contact.html">About</a></li>
+
+                    <li><a href="https://disneyworld.disney.go.com/#interstitialModalHelp" target="_blank">Help &
+                            Guest
+                            Services</a></li>
+                    <li><a href="https://help.disney.com/" target="_blank">Site Map</a></li>
+                    <li><a href="http://disneytermsofuse.com/" target="_blank">Terms Of Use</a></li>
+                    <li><a href="https://disneyprivacycenter.com/" target="_blank">Privacy Policy</a></li>
+                    <li><a href="https://disneyprivacycenter.com/kids-privacy-policy/english/"
+                            target="_blank">Children's Online Privacy Policy</a></li>
+                </ul>
+
+            </div>
+
+
+            <div class="container text-center mt-5 text-white ">
+                <p>© Fullstack Web Developer Hadassah Ackerman 2023</p>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+    <script src="Js/burger.js"></script>
+    <script src="Js/contact.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

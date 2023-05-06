@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@300;400&family=Delius+Swash+Caps&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="Styles/bootstrap.min.css">
+    <link rel="stylesheet" href="Styles/bootstrap.min.css.map">
+    <link rel="stylesheet" href="Styles/header&footer.css">
+    <link rel="stylesheet" href="Styles/homePage.css">
+    <title>DisneyWorld</title>
+</head>
+
+<body>
+    <header class="container-fluid d-flex align-items-center">
+        <div class="container d-flex justify-content-between align-items-center sticky-top ">
+            <div class="logo">
+                <a href="index.html"><img src="Images/Logo.png" alt="logoWaltDisney" title="logoWaltDisney"></a>
+
+            </div>
+            <nav id="nav_open" class="d-md-flex align-items-center">
+
+                <a href="aboutUs.html">About us</a>
+                <a href="gallery.html">Media</a>
+                <a href="faq.html">FAQ</a>
+                <a href="contact.html">Contact</a>
+                <a href="trivia.html">Trivia</a>
+
+                <a href="https://disneyworld.disney.go.com/" target="_blank"><img  src="Images/image (11).png"></a>
+            </nav>
+            <div class="burger">
+                <i id="burger_btn" class="fa fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+
+
+    <main>
+        <div class="container-fluid p-0">
+
+
+            <div id="carouselExampleCaptions" class="carousel slide p-0 w-100" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner" data-bs-interval="10000">
+                    <div class="carousel-item active">
+
+                        <video class="img-fluid" height="100%" autoplay loop muted>
+                            <source src="Images/slider1.mp4" type="video/mp4">
+                        </video>
+
+                        <!-- <div class="bg-carousel" style="background-image:  url(Images/Disney.jpg);"></div>  -->
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Walt Disney 50 Anniversary </h5>
+                            <p>Special Celebration and Attractions</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="20000">
+
+                        <video height="100%" autoplay loop muted>
+                            <source src="Images/slider2.mp4" type="video/mp4">
+                        </video>
+
+                        <!-- <div class="bg-carousel" style="background-image: url(Images/grandFinale.jpg);"></div> -->
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Expedition Everest </h5>
+                            <p>Legend of the Forbidden Mountain</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="30000">
+                        <video height="100%" autoplay loop muted>
+                            <source src="Images/slider3.mp4" type="video/mp4">
+                        </video>
+                        <!-- <div class="bg-carousel" style="background-image: url(Images/header1.jpg);"></div> -->
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Slinky Dog Dash
+                            </h5>
+                            <p>Slinky Dog Dash is one of the more family-friendly roller coasters Disney offers making
+                                it one of the best Disney rides for kids! Toy Story is one of the most popular Disney
+                                movies, so it’s no wonder kids flock to this ride!!</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="40000">
+                        <video height="100%" autoplay loop muted>
+                            <source src="Images/slider4.mp4" type="video/mp4">
+                        </video>
+                        <!-- <div class="bg-carousel" style="background-image: url(Images/header2.jpg);"></div> -->
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Splash Mountain</h5>
+                            <p> A log flume ride at Disneyland. The ride is based on the animated sequences of the 1946
+                                Disney film Song of the South.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="container-fluid first">
+
+                <div class="container text-center goldColor">
+                    <!-- <div style="position: relative;"><img src="Images/frame.gif" width="50%" height="50%"> -->
+                    <h2>50th Anniversary Celebration</h2>
+                    <h3>Only Through March 31, 2023</h3>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <section class="container-fluid  p-0 special-bg">
+            <div class="container my-3 p-0">
+                <div class="row p-0 justify-content-between">
+                    <div class="col-md-3 p-3  bg-banner " data-aos="zoom-out-down" data-aos-duration="1000">
+                        <strong>So, Whats New?</strong><br>
+                        2023 will likely mark the beginning of at least a temporary change in the pace of major new
+                        openings at Disney World.
+                        2023 will see some major Disney World offerings (finally) debut. There will also be smaller
+                        additions to the list of offerings, such as meet-and-greets and shows.
+
+                        Strap in for another year of new things to see, do, eat and watch with these 10 new
+                        attractions
+                        coming to Walt Disney World in 2023.
+
+
+
+                        <img src="Images/banner2.jpg " class="col-12">
+                    </div>
+
+                    <div class="col-md-5 mr-3 p-3 bg-inside  rounded1 text-white">
+
+                        <h3 class="text-center">Welcome to Walt Disney World</h3>
+                        Come and enjoy the magic of Walt Disney World Resort in Orlando, FL. <br>
+                        <a href="https://www.visitflorida.com/travel-ideas/articles/attractions-walt-disney-world-resort-overview/"
+                            target="_blank"><div class="center">
+                                <img src="Images/movies-logos.gif" width="85%">
+                            </div> </a>
+                        
+                        <br>
+                        Plan your family vacation and create memories for a lifetime.<br>
+                        Join us for The World's Most Magical Celebration—<br>
+                        before this once-in-a-lifetime event comes to an end!<br><br>
+                        <marquee width="100%" direction="left" height="20px" class="color">
+                            <strong>Save on room-and-ticket packages for stays select
+                                nights through March 30, 2023.</strong>
+                        </marquee>
+                        
+                    </div>
+
+                    <div class="col-md-3 p-3 bg-banner " data-aos="zoom-out-down" data-aos-duration="1000">
+                        <strong>Grand Finale Merchandise Collection</strong>
+                        <br>
+                        The World’s Most Magical Celebration is going out in style—with the appropriately named
+                        Grand
+                        Finale merchandise collection! Shop this final collection of incredible commemorative
+                        fashions
+                        and amazing keepsakes designed to forever remind you of the magic of the Walt Disney World
+                        50th
+                        Anniversary celebration! #DisneyWorld50
+
+                        <img src="Images/banner1.jpg " class="col-12" height="163px">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="container mb-5 p-0 ">
+
+            <h2 class="my-lg-3"> Can't Miss The Experience</h2>
+            <div class="col-12 row " data-aos="fade-up">
+                <img class="transit" src="Images/dark-flight-of-passage-16x9 (1).jpg">
+            </div>
+            <div class="row col-12 text-white">
+                <div class="col-md-4 " data-aos="zoom-out-down" data-aos-duration="1000">
+                    <img width="100%" height="100%" src="Images/box5.jpg">
+                </div>
+                <div class="col-md-4 " data-aos="zoom-out-down" data-aos-duration="1000">
+                    <img width="100%" height="100%" src="Images/box4.jpg">
+                </div>
+                <div class="col-md-4 " data-aos="zoom-out-down" data-aos-duration="1000">
+                    <img width="100%" height="100%" src="Images/box1.jpg">
+                </div>
+            </div>
+        </section>
+
+
+        <section class="container mb-5 p-0">
+            <h2 class="m-lg-3"> Make Your Way To The Magic</h2>
+            <div class="mb-3 p-0 row" data-aos="fade-up" data-aos-duration="1000">
+                <img src="Images/0912ZQ_6283MS_jrod-1680x388 (1).jpg" class="col-12">
+            </div>
+            <div class="row">
+                <div class="col-md-4  box" data-aos="zoom-out-down" data-aos-duration="1000">
+                    <img width="100%" height="100%" src="Images/aside3.jpg">
+                </div>
+                <div class="col-md-4  box" data-aos="zoom-out-down" data-aos-duration="1000">
+                    <img width="100%" height="100%" src="Images/images.jpg">
+                </div>
+                <div class="col-md-4  box pe-0" data-aos="zoom-out-down" data-aos-duration="1000">
+                    <img width="100%" height="100%" src="Images/download (2).jpg">
+                </div>
+            </div>
+        </section>
+        </div>
+    </main>
+
+    <footer class="container-fluid p-0">
+        <div class="container text-center ">
+            <div class="seperator"></div>
+            <div class="p-3">
+                <div>
+                    <strong>For assistance with your Walt Disney World vacation, including resort/package bookings and
+                        tickets,
+                        please call (407) 939-5277.<br>
+                        For Walt Disney World dining, please book your reservation online.
+                    </strong>
+                </div>
+                <div>7:00 AM to 11:00 PM Eastern Time. Guests under 18 years of age must have parent or guardian
+                    permission to call.
+                </div>
+            </div>
+            <div class="seperator"></div>
+        </div>
+
+        <div class="container above py-3">
+            <div class="row justify-content-between ps-4">
+                <div class="col-md-3 p-md-0">
+
+                    <h6><strong>Stay Connected</strong> </h6>
+                    <div>
+                        <a href="https://www.facebook.com/WaltDisneyWorld" target="_blank"><i
+                                class="fa fa-facebook-square"></i></a>
+                        <a href="https://www.instagram.com/waltdisneyworld" target="_blank"><i
+                                class="fa fa-instagram"></i></a>
+                        <a href=" https://www.youtube.com/user/DisneyParks" target="_blank"><i
+                                class="fa fa-youtube-play"></i></a>
+                        <a href="  https://twitter.com/waltdisneyworld/" target="_blank"><i
+                                class="fa fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+
+                    <h6><strong>Free Vacation Planning Videos</strong> </h6>
+                    <p>Start planning your dream Disney Vacation</p>
+                    <a href="gallery.html">View Videos</a>
+                </div>
+                <div class="col-md-3 ">
+
+                    <h6><strong>Create Disney Account</strong> </h6>
+                    <p>Register to receive the latest Disney Parks news and special offers!</p>
+                    <a>Create Account</a>
+                </div>
+                <div class="col-md-3 p-md-0"></div>
+            </div>
+        </div>
+        <div class="linearGradient">
+            <div class="container mb-3">
+                <div class="row justify-content-between">
+
+                    <h6 class="p-md-0"><strong>Related Disney Sites</strong> </h6>
+
+                    <div class="col-md-3 p-md-0">
+
+                        <ul>
+                            <li><a href="https://www.disneysprings.com" target="_blank">Disney Springs</a></li>
+                            <li><a href="http://disneyparks.disney.go.com" target="_blank">Disney Parks</a></li>
+                            <li><a href="http://disneycruise.disney.go.com" target="_blank">Disney Cruise Line</a>
+                            </li>
+                            <li><a href="http://www.disneygiftcard.com/home/" target="_blank">Disney Gift Card</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-md-3">
+                        <ul>
+                            <li><a href="http://disneyvacationclub.disney.go.com/" target="_blank">Disney Vacation
+                                    Club</a></li>
+                            <li><a href="https://www.disneyweddings.com/" target="_blank">Disney's Fairy Tale
+                                    Wedding&
+                                    Honeymoons</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+
+                        <ul>
+                            <li><a href="https://www.disneyplus.com/" target="_blank">Disney+</a></li>
+                            <li><a href="https://disneyworld.disney.go.com/en_CA/store/?int_cmp=ILC-WDW_SDP-RelatedSites"
+                                    target="_blank">Disney Merchandise Online</a></li>
+                            <li><a href="https://www.disneymeetingsandevents.com/" target="_blank">Disney Meetings
+                                    and
+                                    Convntions</a></li>
+                            <li><a href="https://www.disneycampus.com/" target="_blank">Disney Youth Groups</a></li>
+
+
+                        </ul>
+
+                    </div>
+                    <div class="col-md-3">
+
+                        <ul>
+                            <li><a href="https://www.wdwgoodneighborhotels.com/" target="_blank">Walt Disney World
+                                    Good
+                                    Neigbours Hotels</a></li>
+                            <li><a href="https://disneyspringshotels.com" target="_blank">Disney Springs Resort Area
+                                    Hotels</a></li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container text-white inlineUl">
+                <ul class="d-md-flex justify-content-between">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="contact.html">About</a></li>
+
+                    <li><a href="https://disneyworld.disney.go.com/#interstitialModalHelp" target="_blank">Help &
+                            Guest
+                            Services</a></li>
+                    <li><a href="https://help.disney.com/" target="_blank">Site Map</a></li>
+                    <li><a href="http://disneytermsofuse.com/" target="_blank">Terms Of Use</a></li>
+                    <li><a href="https://disneyprivacycenter.com/" target="_blank">Privacy Policy</a></li>
+                    <li><a href="https://disneyprivacycenter.com/kids-privacy-policy/english/"
+                            target="_blank">Children's Online Privacy Policy</a></li>
+                </ul>
+
+            </div>
+
+
+            <div class="container text-center mt-5 text-white ">
+                <p>© Fullstack Web Developer Hadassah Ackerman 2023</p>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+    <script src="Js/burger.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
